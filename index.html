@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>SalãoNT</title>
+</head>
+<body>
+    
+    <div id="container">
+
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Lançar cortes</a>
+                </li>
+                <li>
+                    <a href="venda.html">Vendas</a>
+                </li>
+                <li><a href="historico.html">Historico</a></li>
+            </ul>
+        </div>
+        <div id="dados">
+            <h1>Laçar cortes</h1>
+            <hr>
+
+            <div id="inputsCard">
+                <div id="inputName">
+                    <input type="text" name="" id="name" placeholder="Cliente">
+                </div>
+                <div id="inputType">
+                    <select name="" id="inputTypeSelect">
+                        <option value="">Tipo de corte</option>
+                        <option value="Corte na maquininha">Corte na maquininha</option>
+                        <option value="Corte na maquininha">Corte na maquininha + barba</option>
+                        <option value="Corte na degrade">Corte Degrade</option>
+                        <option value="Corte na degrade">Corte Degrade + barba</option>
+                    </select>
+                </div>
+                <div class="status">
+                    <select name="status" id="status">
+                        <option value="">Status</option>
+                        <option value="Pago">Pago</option>
+                        <option value="Pendente">Pendete</option>
+                    </select>
+                </div>
+                <div id="cost">
+                    <input type="number" name="cost" id="inputCost" placeholder="Valor">
+                </div>
+                <button onclick="lancar()" id="lancarCorte">Lançar corte</button>
+            </div>
+            <hr>
+            <br>
+            <h3>Cortes do dia atual</h3>
+            <div id="cards">
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

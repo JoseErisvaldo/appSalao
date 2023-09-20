@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    margin: 3px;
+}
+a {
+    text-decoration: none;
+    color: black;
+
+    margin: 10px;
+
+}
+h1 {
+    margin: 10px;
+}
+#menu ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+#menu ul li {
+    margin: 10px;
+    list-style: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#inputsCard {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#inputName {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+#inputName input,#inputType select, .status select{
+    padding: 8px;
+    width: 100%;
+}
+#inputType {
+width: 80%;
+margin: 5px;
+}
+.status {
+    width: 80%;
+    margin-bottom: 5px;
+}
+#cost {
+    width: 80%;
+}
+#cost input {
+    width: 95%;
+    height: 30px;
+    padding-left: 10px;
+}
+#lancarCorte {
+    margin: 10px;
+    width: 50%;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(0, 132, 255);
+}
+#lancarCorte:hover {
+    background-color: rgba(0, 132, 255, 0.788);
+}
+#cards {
+margin: 10px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    margin-top: 10px;
+    background-color: rgb(233, 233, 240);
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card div, h4 {
+    padding: 3px;
+}
+.cardCost{
+    color: green;
+    font-size: 25px;
+}
+.pago {
+    color: green;
+}
+.pendente {
+    color: rgb(247, 0, 0);
+}
+.cardEditar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 30px;
+}
+
+/*--------------------*/
+
+.cardTotal {
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.555);
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
